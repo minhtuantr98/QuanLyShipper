@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Winform\Forms\Forms\bin\Debug\Forms.exe.config
+C:\Users\HP\source\repos\Winform\Forms\Forms\bin\Debug\Forms.exe
+C:\Users\HP\source\repos\Winform\Forms\Forms\bin\Debug\Forms.pdb
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.exe
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.pdb
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.fLogin.resources
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.LapDonHang.resources
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.fMenu.resources
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.AddShipper.resources
+C:\Users\HP\source\repos\Winform\Forms\Forms\obj\Debug\Forms.CapNhatShipper.resources
