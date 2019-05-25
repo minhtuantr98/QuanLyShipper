@@ -64,14 +64,17 @@
 			// 
 			// cbx_maShipper
 			// 
+			this.cbx_maShipper.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.cbx_maShipper.FormattingEnabled = true;
 			this.cbx_maShipper.Location = new System.Drawing.Point(143, 93);
 			this.cbx_maShipper.Name = "cbx_maShipper";
-			this.cbx_maShipper.Size = new System.Drawing.Size(121, 21);
+			this.cbx_maShipper.Size = new System.Drawing.Size(224, 21);
 			this.cbx_maShipper.TabIndex = 23;
 			// 
 			// label3
 			// 
+			this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.Location = new System.Drawing.Point(436, 97);
@@ -82,6 +85,7 @@
 			// 
 			// label4
 			// 
+			this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label4.AutoSize = true;
 			this.label4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.Location = new System.Drawing.Point(436, 137);
@@ -92,10 +96,12 @@
 			// 
 			// comboBox1
 			// 
+			this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.comboBox1.FormattingEnabled = true;
 			this.comboBox1.Location = new System.Drawing.Point(143, 137);
 			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(121, 21);
+			this.comboBox1.Size = new System.Drawing.Size(224, 21);
 			this.comboBox1.TabIndex = 29;
 			this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
 			// 
@@ -112,14 +118,18 @@
 			// 
 			// dataGridView1
 			// 
+			this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dataGridView1.Location = new System.Drawing.Point(31, 190);
 			this.dataGridView1.Name = "dataGridView1";
-			this.dataGridView1.Size = new System.Drawing.Size(718, 248);
+			this.dataGridView1.Size = new System.Drawing.Size(735, 208);
 			this.dataGridView1.TabIndex = 30;
 			// 
 			// date_Start
 			// 
+			this.date_Start.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.date_Start.Location = new System.Drawing.Point(566, 97);
 			this.date_Start.Name = "date_Start";
 			this.date_Start.Size = new System.Drawing.Size(200, 20);
@@ -127,6 +137,7 @@
 			// 
 			// date_End
 			// 
+			this.date_End.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.date_End.Location = new System.Drawing.Point(566, 138);
 			this.date_End.Name = "date_End";
 			this.date_End.Size = new System.Drawing.Size(200, 20);
@@ -135,19 +146,20 @@
 			// btn_lapDH
 			// 
 			this.btn_lapDH.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.btn_lapDH.Location = new System.Drawing.Point(647, 446);
+			this.btn_lapDH.Location = new System.Drawing.Point(668, 404);
 			this.btn_lapDH.Name = "btn_lapDH";
-			this.btn_lapDH.Size = new System.Drawing.Size(102, 54);
+			this.btn_lapDH.Size = new System.Drawing.Size(98, 54);
 			this.btn_lapDH.TabIndex = 33;
 			this.btn_lapDH.Text = "Gán Shipper Giao Lại";
 			this.btn_lapDH.UseVisualStyleBackColor = true;
+			this.btn_lapDH.Click += new System.EventHandler(this.btn_lapDH_Click);
 			// 
 			// TinhTrangGiaoHang
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-			this.ClientSize = new System.Drawing.Size(800, 512);
+			this.ClientSize = new System.Drawing.Size(781, 470);
 			this.Controls.Add(this.btn_lapDH);
 			this.Controls.Add(this.date_End);
 			this.Controls.Add(this.date_Start);
@@ -159,6 +171,7 @@
 			this.Controls.Add(this.cbx_maShipper);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.MinimumSize = new System.Drawing.Size(797, 509);
 			this.Name = "TinhTrangGiaoHang";
 			this.Text = "TinhTrangGiaoHang";
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

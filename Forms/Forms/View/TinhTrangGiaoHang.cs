@@ -26,5 +26,11 @@ namespace QuanLyShipper
 		{
 
 		}
+
+		private void btn_lapDH_Click(object sender, EventArgs e)
+		{
+			GanShipper f = new GanShipper();
+			f.Show();
+		}
 	}
 }

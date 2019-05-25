@@ -69,5 +69,15 @@ namespace QuanLyShipper
                 MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
             }
         }
-    }
+
+		private void panel2_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void panel2_Paint_1(object sender, PaintEventArgs e)
+		{
+
+		}
+	}
 }

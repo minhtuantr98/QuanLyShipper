@@ -64,18 +64,6 @@
     <Compile Include="View\AddShipper.Designer.cs">
       <DependentUpon>AddShipper.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\AlterShipper.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\AlterShipper.Designer.cs">
-      <DependentUpon>AlterShipper.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\CapNhatShipper.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\CapNhatShipper.Designer.cs">
-      <DependentUpon>CapNhatShipper.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\OrderModel.cs" />
     <Compile Include="View\GanShipper.cs">
       <SubType>Form</SubType>
@@ -135,12 +123,6 @@
     </Compile>
     <EmbeddedResource Include="View\AddShipper.resx">
       <DependentUpon>AddShipper.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\AlterShipper.resx">
-      <DependentUpon>AlterShipper.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\CapNhatShipper.resx">
-      <DependentUpon>CapNhatShipper.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\GanShipper.resx">
       <DependentUpon>GanShipper.cs</DependentUpon>

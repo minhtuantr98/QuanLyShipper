@@ -37,5 +37,30 @@ namespace QuanLyShipper
 		{
 			dataGridView1.DataSource = thongke1.load_DoanhThu(cbx_maShipper.SelectedValue);
 		}
+
+		private void label3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void date_Start_ValueChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label2_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void date_End_ValueChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label4_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
