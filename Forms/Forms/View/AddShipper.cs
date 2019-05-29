@@ -60,6 +60,7 @@ namespace QuanLyShipper
             cbx_City.DataSource = shipper1.load_City();
             cbx_City.ValueMember = "id";
             cbx_City.DisplayMember = "KhuVuc";
+			dataGridView1.DataSource = shipper1.Load_On();
         }
     }
 }
