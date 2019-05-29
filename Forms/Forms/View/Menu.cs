@@ -22,7 +22,7 @@ namespace QuanLyShipper
 		{
 			LapDonHang f = new LapDonHang();
 			f.Show();
-			Visible = false;
+			//Visible = false;
 		}
 
 		private void cậpNhậtShipperToolStripMenuItem_Click(object sender, EventArgs e)
@@ -35,35 +35,35 @@ namespace QuanLyShipper
 		{
 			TinhTrangGiaoHang f = new TinhTrangGiaoHang();
 			f.Show();
-			Visible = false;
+			//Visible = false;
 		}
 
 		private void kiểmTraTìnhTrạngHoạtĐộngToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			TinhTrangHoatDong f = new TinhTrangHoatDong();
 			f.Show();
-			Visible = false;
+			//Visible = false;
 		}
 
 		private void thốngKêDoanhThuTheoShipperToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			ThongKeDoanhThu f = new ThongKeDoanhThu();
 			f.Show();
-			Visible = false;
+			//Visible = false;
 		}
 
 		private void thốngKêDoanhThuTheoKhuVựcToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			ThongKeKhuVuc f = new ThongKeKhuVuc();
 			f.Show();
-			Visible = false;
+			//Visible = false;
 		}
 
 		private void thốngKêĐơnHàngTheoShipperToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			ThongKeDonHang f = new ThongKeDonHang();
 			f.Show();
-			Visible = false;
+			//Visible = false;
 		}
 
 		private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)

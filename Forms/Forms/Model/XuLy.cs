@@ -14,8 +14,8 @@ namespace QuanLyShipper.Model
         public static SqlCommand cmd;
         public static DataTable dt;
         public static SqlDataAdapter da;
-        //public static string lenh = "Data Source=TRANBAOKHANH;Initial Catalog=QLSHIPPER;Integrated Security=True";
-        public static string lenh = "Data Source=DESKTOP-I3K4778;Initial Catalog=QLYSHIPPER1;Integrated Security=True";
+        public static string lenh = "Data Source=TRANBAOKHANH;Initial Catalog=QLYSHIPPER1;Integrated Security=True";
+        //public static string lenh = "Data Source=DESKTOP-I3K4778;Initial Catalog=QLYSHIPPER1;Integrated Security=True";
         public static DataTable TaoBang(String sql)
         {
             conn = new SqlConnection(lenh);

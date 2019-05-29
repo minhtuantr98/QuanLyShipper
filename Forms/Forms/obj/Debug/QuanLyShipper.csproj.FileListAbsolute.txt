@@ -80,3 +80,22 @@ C:\Users\HP\OneDrive\Desktop\QuanLyShipper\Forms\Forms\obj\Debug\QuanLyShipper.c
 C:\Users\HP\OneDrive\Desktop\QuanLyShipper\Forms\Forms\obj\Debug\QuanLyShipper.csproj.CoreCompileInputs.cache
 C:\Users\HP\OneDrive\Desktop\QuanLyShipper\Forms\Forms\obj\Debug\Forms.exe
 C:\Users\HP\OneDrive\Desktop\QuanLyShipper\Forms\Forms\obj\Debug\Forms.pdb
+E:\downloads\Đồ án OOP\clone\Forms\Forms\bin\Debug\Forms.exe.config
+E:\downloads\Đồ án OOP\clone\Forms\Forms\bin\Debug\Forms.exe
+E:\downloads\Đồ án OOP\clone\Forms\Forms\bin\Debug\Forms.pdb
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.csprojAssemblyReference.cache
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.AddShipper.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.GanShipper.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.LapDonHang.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.fMenu.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.fLogin.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\Forms.Properties.Resources.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.ThongKeDoanhThu.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.ThongKeDonHang.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.ThongKeKhuVuc.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.TinhTrangGiaoHang.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.TinhTrangHoatDong.resources
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.csproj.GenerateResource.cache
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\QuanLyShipper.csproj.CoreCompileInputs.cache
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\Forms.exe
+E:\downloads\Đồ án OOP\clone\Forms\Forms\obj\Debug\Forms.pdb
