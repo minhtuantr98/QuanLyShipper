@@ -49,14 +49,6 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.MaShipper = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenShipper = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GioiTinh = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.KhuVucPhuTrach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TrangThai = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -263,74 +255,18 @@
             this.button1.TabIndex = 32;
             this.button1.Text = "Hủy";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MaShipper,
-            this.TenShipper,
-            this.GioiTinh,
-            this.Email,
-            this.NgaySinh,
-            this.SDT,
-            this.KhuVucPhuTrach,
-            this.TrangThai});
             this.dataGridView1.Location = new System.Drawing.Point(336, 30);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(459, 335);
             this.dataGridView1.TabIndex = 33;
-            // 
-            // MaShipper
-            // 
-            this.MaShipper.HeaderText = "Mã shipper";
-            this.MaShipper.Name = "MaShipper";
-            this.MaShipper.ReadOnly = true;
-            // 
-            // TenShipper
-            // 
-            this.TenShipper.HeaderText = "Tên shipper";
-            this.TenShipper.Name = "TenShipper";
-            this.TenShipper.ReadOnly = true;
-            // 
-            // GioiTinh
-            // 
-            this.GioiTinh.HeaderText = "Giới tính";
-            this.GioiTinh.Name = "GioiTinh";
-            this.GioiTinh.ReadOnly = true;
-            // 
-            // Email
-            // 
-            this.Email.HeaderText = "Email";
-            this.Email.Name = "Email";
-            this.Email.ReadOnly = true;
-            // 
-            // NgaySinh
-            // 
-            this.NgaySinh.HeaderText = "Ngày sinh";
-            this.NgaySinh.Name = "NgaySinh";
-            this.NgaySinh.ReadOnly = true;
-            // 
-            // SDT
-            // 
-            this.SDT.HeaderText = "SĐT";
-            this.SDT.Name = "SDT";
-            this.SDT.ReadOnly = true;
-            // 
-            // KhuVucPhuTrach
-            // 
-            this.KhuVucPhuTrach.HeaderText = "Khu vực";
-            this.KhuVucPhuTrach.Name = "KhuVucPhuTrach";
-            this.KhuVucPhuTrach.ReadOnly = true;
-            // 
-            // TrangThai
-            // 
-            this.TrangThai.HeaderText = "Trạng thái";
-            this.TrangThai.Name = "TrangThai";
-            this.TrangThai.ReadOnly = true;
             // 
             // AddShipper
             // 
@@ -391,13 +327,5 @@
 		private System.Windows.Forms.Button btnSua;
 		private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaShipper;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenShipper;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn GioiTinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SDT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn KhuVucPhuTrach;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn TrangThai;
     }
 }

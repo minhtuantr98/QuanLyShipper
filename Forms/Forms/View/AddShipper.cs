@@ -68,7 +68,12 @@ namespace QuanLyShipper
         {
             int index;
             index = e.RowIndex;
-            txt_maShipper.Text = dataGridView1.Rows[index].Cells[0].Value.ToString();
+            txt_maShipper.Text = dataGridView1.Rows[index].Cells[8].Value.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

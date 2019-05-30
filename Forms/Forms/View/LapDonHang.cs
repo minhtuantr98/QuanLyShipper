@@ -64,9 +64,10 @@ namespace QuanLyShipper
         private void btn_Undo_Click(object sender, EventArgs e)
         {
             setNull();
-            fMenu f = new fMenu();
-            f.Show();
-            Visible = false;
+            //fMenu f = new fMenu();
+            //f.Show();
+            //Visible = false;
+            this.Close();
         }
 	
         OrderController order = new OrderController();
