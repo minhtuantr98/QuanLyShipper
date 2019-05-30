@@ -46,9 +46,9 @@
             this.cbx_Quan = new System.Windows.Forms.ComboBox();
             this.rNam = new System.Windows.Forms.RadioButton();
             this.rNu = new System.Windows.Forms.RadioButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnSua = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MaShipper = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenShipper = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GioiTinh = new System.Windows.Forms.DataGridViewCheckBoxColumn();
@@ -56,7 +56,7 @@
             this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.KhuVucPhuTrach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TrangThai = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_maShipper.Location = new System.Drawing.Point(153, 30);
             this.txt_maShipper.Name = "txt_maShipper";
-            this.txt_maShipper.Size = new System.Drawing.Size(121, 20);
+            this.txt_maShipper.Size = new System.Drawing.Size(156, 20);
             this.txt_maShipper.TabIndex = 9;
             // 
             // label2
@@ -85,7 +85,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_tenShipper.Location = new System.Drawing.Point(153, 80);
             this.txt_tenShipper.Name = "txt_tenShipper";
-            this.txt_tenShipper.Size = new System.Drawing.Size(121, 20);
+            this.txt_tenShipper.Size = new System.Drawing.Size(156, 20);
             this.txt_tenShipper.TabIndex = 11;
             // 
             // label3
@@ -114,7 +114,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_sdt.Location = new System.Drawing.Point(153, 211);
             this.txt_sdt.Name = "txt_sdt";
-            this.txt_sdt.Size = new System.Drawing.Size(121, 20);
+            this.txt_sdt.Size = new System.Drawing.Size(156, 20);
             this.txt_sdt.TabIndex = 15;
             // 
             // label4
@@ -133,7 +133,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_birthday.Location = new System.Drawing.Point(153, 173);
             this.txt_birthday.Name = "txt_birthday";
-            this.txt_birthday.Size = new System.Drawing.Size(121, 20);
+            this.txt_birthday.Size = new System.Drawing.Size(156, 20);
             this.txt_birthday.TabIndex = 17;
             // 
             // label5
@@ -152,7 +152,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_mail.Location = new System.Drawing.Point(153, 261);
             this.txt_mail.Name = "txt_mail";
-            this.txt_mail.Size = new System.Drawing.Size(121, 20);
+            this.txt_mail.Size = new System.Drawing.Size(156, 20);
             this.txt_mail.TabIndex = 19;
             // 
             // label6
@@ -182,14 +182,14 @@
             this.cbx_City.FormattingEnabled = true;
             this.cbx_City.Location = new System.Drawing.Point(153, 301);
             this.cbx_City.Name = "cbx_City";
-            this.cbx_City.Size = new System.Drawing.Size(121, 21);
+            this.cbx_City.Size = new System.Drawing.Size(156, 21);
             this.cbx_City.TabIndex = 22;
             this.cbx_City.SelectedIndexChanged += new System.EventHandler(this.cbx_City_SelectedIndexChanged);
             // 
             // btn_add
             // 
             this.btn_add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_add.Location = new System.Drawing.Point(334, 419);
+            this.btn_add.Location = new System.Drawing.Point(369, 419);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(82, 39);
             this.btn_add.TabIndex = 25;
@@ -200,7 +200,7 @@
             // btn_reset
             // 
             this.btn_reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_reset.Location = new System.Drawing.Point(568, 419);
+            this.btn_reset.Location = new System.Drawing.Point(603, 419);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(82, 39);
             this.btn_reset.TabIndex = 26;
@@ -215,7 +215,7 @@
             this.cbx_Quan.FormattingEnabled = true;
             this.cbx_Quan.Location = new System.Drawing.Point(153, 344);
             this.cbx_Quan.Name = "cbx_Quan";
-            this.cbx_Quan.Size = new System.Drawing.Size(121, 21);
+            this.cbx_Quan.Size = new System.Drawing.Size(156, 21);
             this.cbx_Quan.TabIndex = 27;
             // 
             // rNam
@@ -244,11 +244,30 @@
             this.rNu.Text = "Nữ";
             this.rNu.UseVisualStyleBackColor = true;
             // 
+            // btnSua
+            // 
+            this.btnSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSua.Location = new System.Drawing.Point(486, 419);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(82, 39);
+            this.btnSua.TabIndex = 31;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(713, 419);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 39);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Hủy";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaShipper,
@@ -261,79 +280,67 @@
             this.TrangThai});
             this.dataGridView1.Location = new System.Drawing.Point(336, 30);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(424, 355);
-            this.dataGridView1.TabIndex = 30;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // btnSua
-            // 
-            this.btnSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSua.Location = new System.Drawing.Point(451, 419);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(82, 39);
-            this.btnSua.TabIndex = 31;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(678, 419);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 39);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Hủy";
-            this.button1.UseVisualStyleBackColor = true;
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(459, 335);
+            this.dataGridView1.TabIndex = 33;
             // 
             // MaShipper
             // 
             this.MaShipper.HeaderText = "Mã shipper";
             this.MaShipper.Name = "MaShipper";
+            this.MaShipper.ReadOnly = true;
             // 
             // TenShipper
             // 
             this.TenShipper.HeaderText = "Tên shipper";
             this.TenShipper.Name = "TenShipper";
+            this.TenShipper.ReadOnly = true;
             // 
             // GioiTinh
             // 
             this.GioiTinh.HeaderText = "Giới tính";
             this.GioiTinh.Name = "GioiTinh";
+            this.GioiTinh.ReadOnly = true;
             // 
             // Email
             // 
             this.Email.HeaderText = "Email";
             this.Email.Name = "Email";
+            this.Email.ReadOnly = true;
             // 
             // NgaySinh
             // 
             this.NgaySinh.HeaderText = "Ngày sinh";
             this.NgaySinh.Name = "NgaySinh";
+            this.NgaySinh.ReadOnly = true;
             // 
             // SDT
             // 
             this.SDT.HeaderText = "SĐT";
             this.SDT.Name = "SDT";
+            this.SDT.ReadOnly = true;
             // 
             // KhuVucPhuTrach
             // 
             this.KhuVucPhuTrach.HeaderText = "Khu vực";
             this.KhuVucPhuTrach.Name = "KhuVucPhuTrach";
+            this.KhuVucPhuTrach.ReadOnly = true;
             // 
             // TrangThai
             // 
             this.TrangThai.HeaderText = "Trạng thái";
             this.TrangThai.Name = "TrangThai";
+            this.TrangThai.ReadOnly = true;
             // 
             // AddShipper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(781, 470);
+            this.ClientSize = new System.Drawing.Size(816, 470);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSua);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.rNu);
             this.Controls.Add(this.rNam);
             this.Controls.Add(this.cbx_Quan);
@@ -381,9 +388,9 @@
         private System.Windows.Forms.ComboBox cbx_Quan;
 		private System.Windows.Forms.RadioButton rNam;
 		private System.Windows.Forms.RadioButton rNu;
-		private System.Windows.Forms.DataGridView dataGridView1;
 		private System.Windows.Forms.Button btnSua;
 		private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaShipper;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenShipper;
         private System.Windows.Forms.DataGridViewCheckBoxColumn GioiTinh;
@@ -391,6 +398,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn KhuVucPhuTrach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TrangThai;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn TrangThai;
     }
 }

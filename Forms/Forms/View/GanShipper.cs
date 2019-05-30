@@ -16,5 +16,10 @@ namespace QuanLyShipper
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void GanShipper_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
